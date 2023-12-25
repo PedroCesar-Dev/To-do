@@ -2,6 +2,7 @@ function botaoFechar(li)
 {
     let span = document.createElement("SPAN")
     let txt = document.createTextNode("\u2716")
+    txt.className = "btnClose"
     span.className = "close";
     span.appendChild(txt);
     li.appendChild(span);
